@@ -1,0 +1,44 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-styles/typography.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+
+<dom-module id="my-feedback">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      span {
+        @apply(--paper-font-body1);
+      }
+    </style>
+
+
+<!-- Contenido del componente-->
+    <a href="https://goo.gl/9LJ3RU">Formulario feedback</a>
+    
+    <iron-image alt="QR feedback" src="../../images/feedback.png"></iron-image>
+
+<!-- Contenido del componente-->
+    
+  </template>
+
+  <script>
+    (function() {
+      'use strict';
+
+      Polymer({
+        is: 'my-feedback',
+
+        /*properties: {
+         
+        },*/
+
+        /*ready: function() {
+          
+        }*/
+      });
+    })();
+  </script>
+</dom-module>
