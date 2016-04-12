@@ -1,0 +1,44 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-styles/typography.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+
+<dom-module id="my-camiseta">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      span {
+        @apply(--paper-font-body1);
+      }
+    </style>
+
+
+<!-- Contenido del componente-->
+    <a href="http://goo.gl/forms/fH9mDAx5Cz">Formulario Camiseta</a>
+    
+    <iron-image alt="QR camiseta" src="../../images/qr_camiseta.jpg"></iron-image>
+
+<!-- Contenido del componente-->
+    
+  </template>
+
+  <script>
+    (function() {
+      'use strict';
+
+      Polymer({
+        is: 'my-camiseta',
+
+        /*properties: {
+         
+        },*/
+
+        /*ready: function() {
+          
+        }*/
+      });
+    })();
+  </script>
+</dom-module>
